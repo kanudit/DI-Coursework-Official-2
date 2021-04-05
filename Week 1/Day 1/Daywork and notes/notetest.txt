@@ -1,0 +1,21 @@
+class day 1
+
+be authentic 
+Vc is the main driving force behind Salesclass
+Traditional sales method doesnt scale and isnt fiscally viable
+
+Valuations are often being done taking potentional into account and predictive models.
+.
+
+5 companies, what do they sell. Who do they sell to, what type of companies? What do they say to them?What value do they have?
+to sonya@salesclass.co
+
+Lannett Company : Generic Pharmaceuticals, they sell to pharmaceutical resellers and the healthcare system to offer a more affordable medication. Both domestic and foreign. 
+
+babaci: Turkish style food, primarily to people in the immediate vicinty of the restaraunt and delivery drivers themselves. A competitively priced middle eastern cuisine increasing dining and catering options the neighborhood.
+
+KSP: Electronics and Computers. A focus on everyday consumers of the newest technology. They offer one of the most comprehensive selections and service packages in Israel.
+
+7/11 Corner Market: Small Grocery store with liqour section in Tel Aviv. A local seller of ice and specific deals on food products as well as being one of the only markets open on shabbat and late hours in the area.
+
+AVO : Same day grocery delivery. Does dropshipping for business parks and apartment complexes. For people that're busy, lazy, or with limitations. 
