@@ -15,7 +15,7 @@ nav {
     width: 100%;
     display: flex;
     position: fixed;
-    font-size: 55px;
+    font-size: 25px;
     Height: 80px;
     vertical-align: top;
     border-bottom: 1px groove greenyellow;
@@ -72,8 +72,34 @@ div {
     padding-block-start: 105px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     h1 {
-        color: lightblue;
+        color: dodgerblue;
     }
-}
+
+    @media only screen and (min-width: 600px) {
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CC_xXQzVZQ8Z58RAlPnqmODvQIxLW5DmAg&usqp=CAU");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            margin: 0;
+
+        }
+    }
+
+
+    @media screen and (min-width:600px) {
+        nav {
+            font-size: 40px;
+        }
+    }
+
+
+    /*min-width = if the screen is at least Ypx then it'll change */
+    @media screen and (min-width: 600px) {
+        div {
+            text-shadow: 12px 8px 8px rgba(28, 255, 5, 0.4);
+
+        }
+    }
