@@ -65,12 +65,15 @@ h1 {
 }
 
 div {
-    ןןןן display: inline-block;
+    display: inline-block;
     font-size: 35px;
     color: greenyellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-block-start: 105px;
-
 }
 
-ןןןןןןןןןןןןןןןןןןןןןןןןןןןןןןןןןן
+@media only screen and (max-width: 600px) {
+    h1 {
+        color: lightblue;
+    }
+}
