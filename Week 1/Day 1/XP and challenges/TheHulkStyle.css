@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+    position: relative;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/jx5d5Rkrtg2xyFR7MvHZXT-970-80.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin: 0;
+
+
+}
+
+nav {
+    background-color: darkolivegreen;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    font-size: 55px;
+    Height: 80px;
+    vertical-align: top;
+    border-bottom: 1px groove greenyellow;
+
+}
+
+nav ul {
+    display: inline;
+    list-style: none;
+    margin: 0 auto;
+
+
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    height: 80px;
+    line-height: 80px;
+
+
+
+}
+
+nav img {
+    height: 90px;
+    vertical-align: top;
+
+}
+
+footer {
+
+    font-size: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 85px;
+    margin: 0;
+    padding-top: 80px;
+    text-align: center;
+    text-shadow: 10px 1px 10px green;
+
+}
+
+div {
+    ןןןן display: inline-block;
+    font-size: 35px;
+    color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-block-start: 105px;
+
+}
+
+ןןןןןןןןןןןןןןןןןןןןןןןןןןןןןןןןןן
