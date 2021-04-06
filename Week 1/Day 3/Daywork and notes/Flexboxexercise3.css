@@ -1,0 +1,97 @@
+.yoyoyo {
+    display: flex;
+    border: 2px solid red;
+    padding: 3vh 1vw 3vh 1vw;
+    align-items: flex-end;
+    /* margin: ; */
+
+}
+
+
+div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+    justify-content: center;
+
+
+
+}
+
+#one {
+    height: 9vh;
+    width: 15%;
+    /*align-items: top;*/
+    background-color: plum;
+    justify-content: center;
+    text-align: center;
+    /* line-height: 13vh; */
+    align-items: center;
+    border-radius: 40px 0 0 40px;
+
+}
+
+#two {
+    height: 9vh;
+    width: 25vw;
+    /* margin: .5vh 0vh .5vh 0vh; */
+    /* align-items: flex-end; */
+    text-align: center;
+    background-color: aquamarine;
+    line-height: 12vh;
+    align-items: center;
+
+}
+
+#three {
+    height: 9vh;
+    width: 100%;
+    /* align-items: bottom; */
+    background-color: red;
+    line-height: 13vh;
+    align-items: center;
+    border-radius: 0px 40px 40px 0px;
+
+
+}
+
+
+
+/*body {
+    background-color: lightblue;
+
+}1
+
+.flex {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex>div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+    color: azure;
+}*/
