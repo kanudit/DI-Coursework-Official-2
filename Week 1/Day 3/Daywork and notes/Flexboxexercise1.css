@@ -3,15 +3,16 @@
     border: 2px solid red;
     padding: 3px;
     align-items: center;
-    margin: 1vh;
+    margin: 3vh;
 }
 
 
 div {
     flex-direction: column;
     text-align: center;
-    font-size: 2.5rem;
-    color: white
+    font-size: 5vh;
+    color: white;
+
 }
 
 #one {
@@ -19,6 +20,8 @@ div {
     width: 100%;
     align-items: top;
     background-color: aquamarine;
+    text-align: center;
+    line-height: 8vh;
 }
 
 #two {
@@ -26,8 +29,9 @@ div {
     width: 50vw;
     margin: 7vh 0vh 7vh 0vh;
     align-items: center;
-
+    text-align: center;
     background-color: aquamarine;
+    line-height: 25vh;
 }
 
 #three {
@@ -35,6 +39,7 @@ div {
     width: 100%;
     align-items: bottom;
     background-color: aquamarine;
+    line-height: 8vh;
 }
 
 
