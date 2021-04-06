@@ -1,7 +1,8 @@
 body {
     height: 100vh;
     position: relative;
-    background-image: url("https://cdn.mos.cms.futurecdn.net/jx5d5Rkrtg2xyFR7MvHZXT-970-80.jpg.webp");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CC_xXQzVZQ8Z58RAlPnqmODvQIxLW5DmAg&usqp=CAU");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -72,34 +73,35 @@ div {
     padding-block-start: 105px;
 }
 
+
 @media only screen and (min-width: 600px) {
+    body {
+        background-image: url("https://cdn.mos.cms.futurecdn.net/jx5d5Rkrtg2xyFR7MvHZXT-970-80.jpg.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        margin: 0;
+    }
+
+    nav {
+        font-size: 40px;
+    }
+
     h1 {
         color: dodgerblue;
     }
 
-    @media only screen and (min-width: 600px) {
-        body {
-            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CC_xXQzVZQ8Z58RAlPnqmODvQIxLW5DmAg&usqp=CAU");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: top center;
-            margin: 0;
+    div {
+        text-shadow: 12px 8px 8px rgba(28, 255, 5, 0.4);
 
-        }
     }
 
-
-    @media screen and (min-width:600px) {
-        nav {
-            font-size: 40px;
-        }
-    }
+}
+}
 
 
-    /*min-width = if the screen is at least Ypx then it'll change */
-    @media screen and (min-width: 600px) {
-        div {
-            text-shadow: 12px 8px 8px rgba(28, 255, 5, 0.4);
 
-        }
-    }
+
+
+
+/*min-width = if the screen is at least Ypx then it'll change */
