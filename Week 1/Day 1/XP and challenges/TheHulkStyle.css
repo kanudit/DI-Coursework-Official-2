@@ -73,6 +73,9 @@ div {
     padding-block-start: 105px;
 }
 
+.redhulk {
+    color: rgb(0 green, 0 blue, 0) display: none;
+}
 
 @media only screen and (min-width: 600px) {
     body {
