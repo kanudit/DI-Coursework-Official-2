@@ -50,8 +50,13 @@ body {
 }
 
 #introduction {
+
     display: flex;
 
+}
+
+.introduction #profile {
+    text-indent: 15px;
 }
 
 #contact {
@@ -60,4 +65,9 @@ body {
 
 #education {
     display: flex;
+
+}
+
+#experience li {
+    list-style-type: none;
 }
