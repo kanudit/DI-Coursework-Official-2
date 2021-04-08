@@ -1,0 +1,79 @@
+.wrapper {
+    justify-content: center;
+    background-color: gainsboro;
+
+}
+
+.row {
+    margin: 0px;
+}
+
+.welcome {
+    width: 100vw;
+    height: 35vh;
+    background-attachment: fixed;
+    background-image: url("prettybg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/*
+#bio {
+    display: flex;
+    width: 80vw;
+    text-align: center;
+    justify-content: center;
+    background-color: azure;
+    margin: 0 auto;
+}
+*/
+
+#biopic {
+    border-radius: 50%;
+    height: 100%;
+    padding: 0;
+}
+
+/*
+.Vdivider {
+    background-color: black;
+    width: 2px;
+    height: auto;
+    margin: 8px 6px;
+}
+
+#biotext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*/
+
+h4,
+h3 {
+    text-align: center;
+}
+
+.portfolio-wrap {
+    justify-content: center;
+}
+
+.portfolio-pics {
+
+    Margin: 1vw;
+
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+.portfolio-pics button {
+
+    Margin: 1vw;
+
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}

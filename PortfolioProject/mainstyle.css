@@ -1,0 +1,42 @@
+.wrapper {
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+/*header*/
+.welcome {
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url("prettybg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#bio {
+    display: flex;
+    width: 80vw;
+    text-align: center;
+    justify-content: center;
+    background-color: azure;
+    margin: 0 auto;
+}
+
+#biopic {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.Vdivider {
+    background-color: black;
+    width: 2px;
+    height: auto;
+    margin: 8px 6px;
+}
+
+#biotext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -26,21 +26,32 @@ body {
 
 #sign-up {
     justify-content: center;
-    visibility: hidden;
+    display: hidden;
 }
 
 
-.biotext:hover+#sign-up {
+
+.biotext:hover {
 
     justify-content: center;
     text-align: center;
     width: 50vw;
     margin: 0 auto;
-    visibility: visible;
+    display: inline-block;
 
 
 }
 
+#sign-up:hover {
+
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+    display: inline-block;
+
+
+}
 
 
 
