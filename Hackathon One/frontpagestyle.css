@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-image: url("https://i.pinimg.com/originals/a7/45/23/a7452366747f11601d510d3eee1eab1c.gif");
+
+}
+
+
+
+#wrapper {
+    border-radius: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/a7/45/23/a7452366747f11601d510d3eee1eab1c.gif");
+    /* background-image: radial-gradient(black, gray, white, gray, black); */
+    background-size: 150vh 150vw;
+    animation-name: spin;
+
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
+#circle {
+    border: 5px solid whitesmoke;
+    background-image: radial-gradient(black, gray, white, gray, black);
+    background-position: left;
+    background-size: cover;
+    box-shadow: ;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    max-width: ;
+    margin: 25px;
+    animation-name: spin, slide;
+    animation-duration: 8000ms, 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0, 75px);
+    }
+
+    100% {
+        transform: translate(250px);
+    }
+}
+
+/*
+
+      let circle=document.createElement("div");
+      let backgroundImage;
+      circle.setAttribute("id", "circle");
+
+      if (frame % 3==0) {
+          backgroundImage="url('https://i.gifer.com/1kW8.gif')";
+
+      }
+
+      else if (frame % 2==0) {
+          backgroundImage="url('https://cdn.logo.com/hotlink-ok/logo-social-sq.png')";
+      }
+
+      else {
+          backgroundImage="url('https://cdn.dribbble.com/users/10882/screenshots/15172621/media/cd2246d5d0f54f9a4316bd4d276764b2.png?compress=1&resize=400x300')";
+
+      }
+
+      console.log(backgroundImage);
+
+      circle.style.backgroundImage=backgroundImage;
+
+      showcase.appendChild(circle);
+      console.log(circle);
+      frame++;
+      }
+      }
