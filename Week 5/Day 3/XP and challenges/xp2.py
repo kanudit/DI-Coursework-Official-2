@@ -36,20 +36,22 @@ def until_holiday():
 
 until_holiday()
 
+def space_years():
+    seconds = int(input('seconds you\'ve been alive: '))
+    years = seconds/60/60/24/365
 
-seconds = int(input('seconds you\'ve been alive'))
-years = seconds/60/60/24/365
+    earth_years = years
+    mercury_years = years/0.2408467 
+    venus_years = years/0.61519726
+    Mars_years = years/1.8808158 
+    jupiter_years = years/11.862615 
+    saturn_years = years/29.447498
+    uranus_years = years/84.016846
+    neptune_years = years/164.79132
 
-earth_years = years
-mercury_years = years/0.2408467 
-venus_years = years/0.61519726
-Mars_years = years/1.8808158 
-jupiter_years = years/11.862615 
-saturn_years = years/29.447498
-uranus_years = years/84.016846
-neptune_years = years/164.79132
+    print (f'You are {jupiter_years} years old on Jupiter')
 
-print (f'You are {jupiter_years} years old on Jupiter')
+space_years()
 
 from faker import Faker
 from faker.providers import internet
@@ -60,9 +62,15 @@ fake.add_provider(internet)
 users = []
 
 def add_user():
-    for people in range(10):
+    num_users = int(input('Number of users: '))
+    #need to validate, how?
+
+    for people in range(num_users):
         users.append({'name': fake.name() , 'address': fake.address(), 'language': fake.language_name()})
-    print(users)
+    for person in users:
+        print (f"{person['name']} {person['address']}, {person['language']}\n")
+
+    # print(users)
 add_user()
 
 
