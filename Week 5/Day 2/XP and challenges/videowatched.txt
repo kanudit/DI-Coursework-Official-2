@@ -1,0 +1,1 @@
+MRO is the order that python looks for a method in the hierarchy of classes.
