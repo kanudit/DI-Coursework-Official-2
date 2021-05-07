@@ -9,14 +9,15 @@ def user_menu():
             print("too many words")
             continue    
         for item in item_list:
+            if item == 'exit':
+                print("Goodbye (exit has no anagrams)")
+                exit()
 
             if item.isalnum() == False:
                 print("isn't a word")
                 continue
                  
-            if item == 'exit':
-                print("Goodbye (exit has no anagrams)")
-                exit()
+            
 
         anagram = AnagramChecker("sowpods.txt")
         # returns the anagram list
